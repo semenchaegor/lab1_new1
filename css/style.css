@@ -1,0 +1,101 @@
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li { 
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    margin: 20px;
+}
+.turfirm {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Сторінка "Про нас" */
+.questionary {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Сторінка "Контакти" */
+.contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#contered-heading{
+    text-align: center;
+    color: rgb(48, 48, 97);
+    font-size: xx-large;
+
+}
+#contered-heading1{
+    text-align: center;
+    color: rgb(225, 17, 48);
+    font-size: xx-large;
+}
+.red-text {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    color: #FF0000; /* Червоний колір */
+}
+
+/* Зміна шрифту і коліру для другого <p> */
+.green-text {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    color: #00FF00; /* Зелений колір */
+}
+
+/* Зміна шрифту і коліру для третього <p> */
+.blue-text {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    color: #0000FF; /* Синій колір */
+}
+
+/* Зміна шрифту і коліру для четвертого <p> */
+.purple-text {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #FF00FF; /* Фіолетовий колір */
+}
+.centr_1 {
+    text-align: center;
+
+}
+#centered-image {
+    height: 50;
+    display: block; /* Робимо зображення блочним елементом */
+    margin: 0 auto; /* Це центрує зображення по горизонталі */
+    width: 50%; /* Змінюємо ширину зображення на 50% від батьківського контейнера */
+    max-width: 90px; /* Обмежуємо максимальну ширину зображення, щоб воно не було занадто великим */
+    border: 2px solid #333; /* Додаємо рамку навколо зображення */
+    border-radius: 10px; /* Закруглюємо кути рамки */
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Додаємо тінь */
+}
+
+
+

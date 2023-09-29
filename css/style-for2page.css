@@ -1,0 +1,43 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li { 
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;}
+.continent-block {
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #888888;
+    cursor: pointer;
+}
+
+/* Стилі для тексту без підкреслення всередині блоків */
+.continent-block p {
+    text-decoration: none;
+}
+
+/* Додати стилі для заголовка та інших елементів за бажанням */
+h1 {
+    text-align: center;
+}
